@@ -36,9 +36,9 @@ let handler = async (m, { conn, text, participants }) => {
     { mentions: kickedUser },
   );
 };
-handler.help = ["kick"];
+handler.help = ["طرد"];
 handler.tags = ["owner"];
-handler.command = /^(kick)$/i;
+handler.command = /^(طرد)$/i;
 
 handler.admin = true;
 handler.group = true;
